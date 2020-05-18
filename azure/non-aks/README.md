@@ -45,7 +45,7 @@ Once this command is completed, it will display a
 
 `kubernetes-master:~$ mkdir -p $HOME/.kube`
 `kubernetes-master:~$ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config`
-`kubernetes-master:~$ sudo chown $(id -u):$(id -g) $HOME/.kube/config1
+`kubernetes-master:~$ sudo chown $(id -u):$(id -g) $HOME/.kube/config`
 
 9. Deploy pod network the cluster. A pod network is a way to allow communications between different nodes in the cluster. We will be using `flannel` as the virtual network.
 
